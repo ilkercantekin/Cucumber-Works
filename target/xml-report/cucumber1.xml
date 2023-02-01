@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="28.812">
-    <testcase classname="Google Doviz Test" name="test1" time="21.146">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="49.424">
+    <testcase classname="Google Doviz Test" name="test1" time="23.334">
         <system-out>
             <![CDATA[Given Kullanici "url" sayfasina gider.......................................passed
-Then Kullanici cookies i kabul eder.........................................passed
 Then Kullanici arama yapmak istedigi "Dolar to Zloty" birimleri girer.......passed
 Then Para birimlerinin karsilastirmasini alir...............................passed
 Then Verilen degerlerin iki den kucuk oldugunu dogrular.....................passed
@@ -11,10 +10,9 @@ And Kullanici sayfayi kapatir...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Google Doviz Test" name="test1_2" time="3.135">
+    <testcase classname="Google Doviz Test" name="test1_2" time="20.985">
         <system-out>
             <![CDATA[Given Kullanici "url" sayfasina gider.......................................passed
-Then Kullanici cookies i kabul eder.........................................passed
 Then Kullanici arama yapmak istedigi "Zloty to Euro" birimleri girer........passed
 Then Para birimlerinin karsilastirmasini alir...............................passed
 Then Verilen degerlerin iki den kucuk oldugunu dogrular.....................passed
@@ -22,10 +20,9 @@ And Kullanici sayfayi kapatir...............................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Google Doviz Test" name="test1_3" time="4.323">
+    <testcase classname="Google Doviz Test" name="test1_3" time="4.935">
         <system-out>
             <![CDATA[Given Kullanici "url" sayfasina gider.......................................passed
-Then Kullanici cookies i kabul eder.........................................passed
 Then Kullanici arama yapmak istedigi "Zloty to Tl" birimleri girer..........passed
 Then Para birimlerinin karsilastirmasini alir...............................passed
 Then Verilen degerlerin iki den kucuk oldugunu dogrular.....................passed

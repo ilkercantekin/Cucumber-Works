@@ -19,10 +19,7 @@ public class test1 {
     public void kullanici_google_sayfasina_gider() {
         Driver.getDriver().get(ConfigReader.getProperty("url"));
     }
-    @Then("Kullanici cookies i kabul eder")
-    public void kullanici_cookies_i_kabul_eder() {
-     test.cookies.click();
-    }
+
     @Then("Arama Kutusuna karsilastirma yapmak istedigi para birimlerini girer")
     public void arama_kutusuna_karsilastirma_yapmak_istedigi_para_birimlerini_girer() {
     test.googleAramaKutusu.sendKeys("Euro to Dollar"+ Keys.ENTER);
@@ -30,13 +27,16 @@ public class test1 {
     @Then("Para birimlerinin karsilastirmasini alir")
     public void para_birimlerinin_karsilastirmasini_alir() {
       paraninDegeri=test.karsilastirilanDeger.getText();
-        System.out.println(paraninDegeri);
+        String paraDegis=paraninDegeri.replaceAll(",", ".");
+        System.out.println(paraDegis);
 
     }
 
     @And("Verilen degerlerin iki den kucuk oldugunu dogrular")
     public void verilenDegerlerinIkiDenKucukOldugunuDogrular() {
-        Assert.assertTrue(Double.parseDouble(paraninDegeri)<20);
+
+        String paraDegis=paraninDegeri.replaceAll(",", ".");
+        Assert.assertTrue(Double.parseDouble(paraDegis)<20.0);
     }
     @Then("Kullanici sayfayi kapatir")
     public void kullanici_sayfayi_kapatir() {

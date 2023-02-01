@@ -9,5 +9,8 @@
         <module name="T-105_Cucumber" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="T105_Cucumber_Nevzat" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>

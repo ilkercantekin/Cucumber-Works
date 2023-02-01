@@ -3,7 +3,7 @@
 
    Background: arama yapilincaya kadar olusan islemler
      Given Kullanici google sayfasina gider
-     Then  Kullanici cookies i kabul eder
+
 
    Scenario: Test Case
 
