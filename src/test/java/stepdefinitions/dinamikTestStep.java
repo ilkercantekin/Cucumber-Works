@@ -19,5 +19,6 @@ public class dinamikTestStep {
     @Then("Kullanici arama yapmak istedigi {string} birimleri girer")
     public void kullanici_arama_yapmak_istedigi_birimleri_girer(String aranacakParaBirimi) {
         testPage.googleAramaKutusu.sendKeys(aranacakParaBirimi+Keys.ENTER);
+
     }
 }
