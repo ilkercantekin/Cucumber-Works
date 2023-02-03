@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="88.648">
+    <testcase classname="US ISMI" name="Test Case" time="20.395">
+        <system-out>
+            <![CDATA[Given Kullanici google sayfasina gider......................................passed
+Then Arama Kutusuna karsilastirma yapmak istedigi para birimlerini girer....passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+And Verilen degerlerin iki den kucuk oldugunu dogrular......................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US ISMI" name="Test Case 2" time="19.856">
+        <system-out>
+            <![CDATA[Given Kullanici google sayfasina gider......................................passed
+Then Arama Kutusuna Dollar to Euro karsilastirma yapmak istedigi para birimlerini girer.passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+And Verilen degerlerin iki den kucuk oldugunu dogrular......................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Google Doviz Test" name="test1" time="22.217">
+        <system-out>
+            <![CDATA[Given Kullanici "url" sayfasina gider.......................................passed
+Then Kullanici arama yapmak istedigi "Dolar to Zloty" birimleri girer.......passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerlerin iki den kucuk oldugunu dogrular.....................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Google Doviz Test" name="test1_2" time="21.148">
+        <system-out>
+            <![CDATA[Given Kullanici "url" sayfasina gider.......................................passed
+Then Kullanici arama yapmak istedigi "Zloty to Euro" birimleri girer........passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerlerin iki den kucuk oldugunu dogrular.....................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Google Doviz Test" name="test1_3" time="4.863">
+        <system-out>
+            <![CDATA[Given Kullanici "url" sayfasina gider.......................................passed
+Then Kullanici arama yapmak istedigi "Zloty to Tl" birimleri girer..........passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerlerin iki den kucuk oldugunu dogrular.....................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
